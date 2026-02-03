@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RESTU LAUNDRY EXPRESS</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">RESTU LAUNDRY EXPRESS</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#hasil">Hasil</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#lokasi">Lokasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero">
+    <div>
+      <h1 style="font-size: 2.5rem;">Solusi Tepat Untuk Yang Tidak Sempat<br><span style="font-size: 1.5rem;">MELAYANI: EXPRESS 4 & 8 JAM</span></h1>
+      <p>RESTU LAUNDRY – Solusi laundry profesional di Ponorogo</p>
+      <a class="btn-wa" href="https://wa.me/6287776330861" target="_blank">WhatsApp Sekarang</a>
+    </div>
+    <div class="hero-card">
+      <h3>📍 Alamat</h3>
+      <p>Jl. Mangga No. 62A, Gendingan, Keniten, Kec. Ponorogo, Kabupaten Ponorogo, Jawa Timur 63412</p>
+      <h3>⏱ Express Service</h3>
+      <p>1 Hari Selesai</p>
+      <h3>🧴 Deterjen Premium</h3>
+      <p>Aman & Ramah Lingkungan</p>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+  <div class="container">
+    <h2>Tentang Kami</h2>
+    <div class="about-box">
+      Kami adalah laundry profesional dengan mesin modern, tenaga berpengalaman,
+      dan standar kebersihan tinggi. Kepuasan pelanggan adalah prioritas utama
+      Kami.
+    </div>
+  </div>
+</section>
+
+<!-- LOKASI -->
+<section id="lokasi">
+  <div class="container">
+    <h2>Lokasi Kami</h2>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126477.07369473754!2d111.32149114335937!3d-7.852238799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799fc3fc79d6fb%3A0x3a3e2e856ec2cf55!2sRESTU%20EXPRESS%20LAUNDRY%20PONOROGO!5e0!3m2!1sid!2sid!4v1769761911195!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- LAYANAN -->
+<!-- <section id="layanan">
+  <div class="container">
+    <h2>Layanan Unggulan</h2>
+    <div class="services">
+      <div class="service"><img src="https://images.unsplash.com/photo-1582738412143-0d3e0f92b7c6"><h3>Laundry Kiloan</h3></div>
+      <div class="service"><img src="https://images.unsplash.com/photo-1604335399105-5e5b6b6d42a9"><h3>Laundry Express</h3></div>
+      <div class="service"><img src="https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a"><h3>Setrika</h3></div>
+      <div class="service"><img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f"><h3>Dry Cleaning</h3></div>
+    </div>
+  </div>
+</section> -->
+
+<!-- APA SAJA YANG BISA DICUCI -->
+<section id="layanan" style="padding-top: 110;">
+  <div class="container">
+    <h2>Melayani:</h2>
+
+    <div class="wash-list">
+      <button class="wash-btn">Pakaian Harian</button>
+      <button class="wash-btn">Laundry Jas</button>
+      <button class="wash-btn">Kebaya</button>
+      <button class="wash-btn">Bed Cover</button>
+      <button class="wash-btn">Selimut</button>
+      <button class="wash-btn">Sepatu</button>
+      <button class="wash-btn">Tas</button>
+      <button class="wash-btn">Boneka</button>
+      <button class="wash-btn">Bantal</button>
+      <button class="wash-btn">Guling</button>
+      <button class="wash-btn">Stroller</button>
+      <button class="wash-btn">Gorden</button>
+      <button class="wash-btn">DLL</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- HASIL -->
+<section id="hasil">
+  <div class="container">
+    <!-- <h2>Galeri Hasil</h2> -->
+    <div class="gallery">
+      <img src="img/1.png" onclick="openLightbox(this.src)">
+      <img src="img/2.png" onclick="openLightbox(this.src)">
+      <img src="img/3.png" onclick="openLightbox(this.src)">
+      <img src="img/4.png" onclick="openLightbox(this.src)">
+  </div>
+</section>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightboxImg">
+</div>
+
+<!-- TESTIMONI -->
+<section id="testimoni">
+  <div class="container">
+    <h2>Apa Kata Pelanggan</h2>
+    <div class="testi-wrap">
+      <div class="testi">⭐⭐⭐⭐⭐<br>Pelayanan bagus, cepat dan rapi
+      </div>
+      <div class="testi">⭐⭐⭐⭐⭐<br>Pelayanannya ramah, satset, Cuciane wangi, lipatan & packing e rapi pol</div>
+      <div class="testi">⭐⭐⭐⭐⭐<br>Harga terjangkau, kualitas premium.</div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- KONTAK -->
+<section id="kontak">
+  <div class="container">
+    <h2>Hubungi Kami</h2>
+    <div class="contact">
+      <a class="wa" href="https://wa.me/6287776330861" target="_blank">WhatsApp</a>
+      <a class="fb" href="https://facebook.com/profile.php?id=61581931268135" target="_blank">Facebook</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
